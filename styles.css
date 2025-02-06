@@ -5,6 +5,23 @@ body {
   box-sizing: border-box;
 }
 /* Navbar */
+.logo {
+  font-family: monospace;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  /* text-shadow: 0 0 5px #0fe, 0 0 10px #0fe, 0 0 20px #0fe, 0 0 40px #0fe; */
+  text-shadow: #f3f4f6;
+  background: linear-gradient(45deg, #1a1a1a, #2a2a2a);
+  padding: 20px 40px;
+  border-radius: 8px;
+  position: relative;
+  display: inline-block;
+  transform: skew(-5deg);
+  /* border: 2px solid #0fe; */
+  border: 2px solid #f3f4f6;
+  animation: pulse 2s infinite;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
